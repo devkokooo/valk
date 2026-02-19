@@ -1,0 +1,73 @@
+import AminoAcid from "./amino-acids";
+
+const RNACodonTable = {
+  "UUU": AminoAcid.Phenylalanine,
+  "UUC": AminoAcid.Phenylalanine,
+  "UUA": AminoAcid.Leucine,
+  "UUG": AminoAcid.Leucine,
+  "CUU": AminoAcid.Leucine,
+  "CUC": AminoAcid.Leucine,
+  "CUA": AminoAcid.Leucine,
+  "CUG": AminoAcid.Leucine,
+  "AUU": AminoAcid.Isoleucine,
+  "AUC": AminoAcid.Isoleucine,
+  "AUA": AminoAcid.Isoleucine,
+  "AUG": AminoAcid.Methionine, // Start codon
+  "GUU": AminoAcid.Valine,
+  "GUC": AminoAcid.Valine,
+  "GUA": AminoAcid.Valine,
+  "GUG": AminoAcid.Valine,
+
+  "UCU": AminoAcid.Serine,
+  "UCC": AminoAcid.Serine,
+  "UCA": AminoAcid.Serine,
+  "UCG": AminoAcid.Serine,
+  "CCU": AminoAcid.Proline,
+  "CCC": AminoAcid.Proline,
+  "CCA": AminoAcid.Proline,
+  "CCG": AminoAcid.Proline,
+  "ACU": AminoAcid.Threonine,
+  "ACC": AminoAcid.Threonine,
+  "ACA": AminoAcid.Threonine,
+  "ACG": AminoAcid.Threonine,
+  "GCU": AminoAcid.Alanine,
+  "GCC": AminoAcid.Alanine,
+  "GCA": AminoAcid.Alanine,
+  "GCG": AminoAcid.Alanine,
+
+  "UAU": AminoAcid.Tyrosine,
+  "UAC": AminoAcid.Tyrosine,
+  "UAA": AminoAcid.Stop, // Stop codon
+  "UAG": AminoAcid.Stop, // Stop codon
+  "CAU": AminoAcid.Histidine,
+  "CAC": AminoAcid.Histidine,
+  "CAA": AminoAcid.Glutamine,
+  "CAG": AminoAcid.Glutamine,
+  "AAU": AminoAcid.Asparagine,
+  "AAC": AminoAcid.Asparagine,
+  "AAA": AminoAcid.Lysine,
+  "AAG": AminoAcid.Lysine,
+  "GAU": AminoAcid.Aspartate,
+  "GAC": AminoAcid.Aspartate,
+  "GAA": AminoAcid.Glutamate,
+  "GAG": AminoAcid.Glutamate,
+
+  "UGU": AminoAcid.Cysteine,
+  "UGC": AminoAcid.Cysteine,
+  "UGA": AminoAcid.Stop, // Stop codon
+  "UGG": AminoAcid.Tryptophan,
+  "CGU": AminoAcid.Arginine,
+  "CGC": AminoAcid.Arginine,
+  "CGA": AminoAcid.Arginine,
+  "CGG": AminoAcid.Arginine,
+  "AGU": AminoAcid.Serine,
+  "AGC": AminoAcid.Serine,
+  "AGA": AminoAcid.Arginine,
+  "AGG": AminoAcid.Arginine,
+  "GGU": AminoAcid.Glycine,
+  "GGC": AminoAcid.Glycine,
+  "GGA": AminoAcid.Glycine,
+  "GGG": AminoAcid.Glycine,
+};
+
+export default RNACodonTable;

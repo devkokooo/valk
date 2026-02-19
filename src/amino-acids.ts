@@ -1,0 +1,25 @@
+enum AminoAcid {
+  Alanine = "Ala",
+  Arginine = "Arg",
+  Asparagine = "Asn",
+  Aspartate = "Asp",
+  Cysteine = "Cys",
+  Glutamine = "Gln",
+  Glutamate = "Glu",
+  Glycine = "Gly",
+  Histidine = "His",
+  Isoleucine = "Ile",
+  Leucine = "Leu",
+  Lysine = "Lys",
+  Methionine = "Met",
+  Phenylalanine = "Phe",
+  Proline = "Pro",
+  Serine = "Ser",
+  Threonine = "Thr",
+  Tryptophan = "Trp",
+  Tyrosine = "Tyr",
+  Valine = "Val",
+  Stop = "Stop",
+};
+
+export default AminoAcid;
